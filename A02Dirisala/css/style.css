@@ -1,0 +1,110 @@
+body{
+    background-image: url("../images/img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.calc input {
+    
+    text-align: right;
+    float: left;
+}
+
+.numberFields {
+    margin: 0;
+    width: 360px;
+    font-size:0;
+    overflow: auto;
+    float: left;
+    clear: left;
+}
+
+
+.numberFields input {
+    background-color: green;
+    border: 1px solid black;
+    width: 120px;
+    height: 40px;
+
+}
+
+.numberFields input[name="0"] {
+    width: 360px;
+}
+
+.operations {
+    margin-left: 0px;
+    width: 40px;
+    font-size: 0;
+    display: inline-block;
+    float: left;
+   
+}
+
+.operations input {
+    background-color: purple;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+.sum {
+    /*margin-top: 5px;*/
+    margin: 0;
+    width: 512px;
+    font-size:0;
+    overflow: auto;
+    float: left;
+    clear: left;
+    
+}
+
+.sum input {
+    background-color: purple;
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    float: left;
+    color:#000;
+    /*clear: left;*/
+}
+
+.form-control {
+    
+    width: 53%;
+    height: 54px;
+}
+
+
+.jumbotron{
+     width:600px;
+    margin:0 auto;
+    color:black;
+    padding:60px;
+    border-style: solid;
+    background-color: #008080;
+   
+}
+.bottom{
+    clear:both;
+    padding-bottom: 10px;
+}
+.pic{
+  	width: 150px;
+  	margin: 10px;
+    border-radius: 50px;
+    border: 5 px black;
+    border-style: solid;
+.cl{
+     color: firebrick;
+    font-family: Georgia Bold:
+}
+    
+    
+  }
+  
+
+
+
+
+
+

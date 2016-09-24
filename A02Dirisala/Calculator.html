@@ -1,0 +1,98 @@
+<html>
+    
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--<link rel="stylesheet" type="text/css" href="bapu.css">-->
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<script src="cal.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Dirisala's</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="bapu.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="About.html">About</a></li>
+        <li class="active"><a href="Calculator.html">Calculator</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+         
+        <li><a href="https://github.com/DirisalaBapuji"><img src="images/github.png" alt="github" width="35" height="35"></a></li>
+	    	<li><a href="https://bitbucket.org/DirisalaBapuji/"><img src="images/bitbucket.png" alt="bitbucket" width="35" height="35"></a></li>
+		    <li><a href="https://www.facebook.com/dirisala.bapuji"><img src="images/facebook.png" alt="facebook" width="35" height="35"></a></li>
+	    	<li><a href="https://www.linkedin.com/bapuji-dirisala"><img src="images/linkedin.png" alt="linkedin" height="35" width="35"></a></li>
+	   </ul>
+   </div>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- 16:9 aspect ratio -->
+<div class="container" >
+<div class="row">
+  <div class="col-md-8">
+      <form  name="calc">
+            <div class="calc">
+            <input type="text" class="form-control ttl" " name="Input"    />
+        
+        <div class="numberFields">
+            <input class = "btn btn-primary btn-md" type="button" name="1" value="1" OnClick="calc.Input.value=concat(calc.Input.value, '1')"/>
+            <input class = "btn btn-primary btn-md" type="button" name="2" value="2" OnClick="calc.Input.value=concat(calc.Input.value, '2')" />
+            <input class = "btn btn-primary btn-md" type="button" name="3" value="3"  OnClick="calc.Input.value=concat(calc.Input.value, '3')"/>
+            <input class = "btn btn-primary btn-md" type="button" name="4" value="4"  OnClick="calc.Input.value=concat(calc.Input.value, '4')"/>
+            <input class = "btn btn-primary btn-md" type="button" name="5" value="5" OnClick="calc.Input.value=concat(calc.Input.value, '5')"/>
+            <input class = "btn btn-primary btn-md" type="button" name="6" value="6" OnClick="calc.Input.value=concat(calc.Input.value, '6')"/>
+            <input class = "btn btn-primary btn-md" type="button" name="7" value="7" OnClick="calc.Input.value=concat(calc.Input.value, '7')"/>
+            <input class = "btn btn-primary btn-md" type="button" name="8" value="8" OnClick="calc.Input.value=concat(calc.Input.value, '8')"/>
+            <input class = "btn btn-primary btn-md" type="button" name="9" value="9" OnClick="calc.Input.value=concat(calc.Input.value, '9')"/>
+            <input class = "btn btn-primary btn-md" type="button" name="0" value="0"  OnClick="calc.Input.value=concat(calc.Input.value, '0')"/>
+        </div>
+        <div class="operations">
+            <input class = "btn btn-info btn-md" type="button" name="+" value="+" OnClick="calc.Input.value=concat(calc.Input.value, '+')" />
+            <input class = "btn btn-info btn-md" type="button" name="-" value="-" OnClick="calc.Input.value=concat(calc.Input.value, '-')"/>
+            <input class = "btn btn-info btn-md" type="button" name="*" value="*"  OnClick="calc.Input.value=concat(calc.Input.value, '*')"/>
+            <input class = "btn btn-info btn-md" type="button" name="/" value="/"  OnClick="calc.Input.value=concat(calc.Input.value, '/')"/>
+        </div>
+        <div class="sum">
+            <span class="btn btn-primary"  name="clr" value="Clear" onclick="calc.Input.value = ''">Clear</span>&nbsp; &nbsp; &nbsp;
+            <span class = "btn btn-primary" id="total" type="button" name="="   OnClick="calc.Input.value = eval(calc.Input.value)">&nbsp;&nbsp;=</span>
+            
+          
+        </div>
+        </div>
+    </form>
+  </div>
+  <div class="col-md-4">
+      
+        
+  </div>
+
+</div>
+</div>
+<footer>
+
+          <div class="bottom">copyrights@2016 Dirisala Bapuji graduate student NWMSU</div>
+        </footer>
+
+      
+<!-- jQuery File -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="cal.js"></script>
+</body>
+
+</html>
